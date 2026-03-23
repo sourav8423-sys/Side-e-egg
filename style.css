@@ -1,0 +1,56 @@
+/* Side E-EGG Professional Style */
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #2d3436;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.egg-container {
+    background: #ffffff;
+    padding: 60px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* अंडाकार शेप */
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    border: 2px solid #ffffff;
+    width: 320px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.egg-container:hover {
+    transform: scale(1.05); /* माउस ले जाने पर हल्का बड़ा होगा */
+}
+
+h1 {
+    color: #0984e3;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.vision-text {
+    font-style: italic;
+    color: #636e72;
+    font-size: 1.1rem;
+}
+
+.status-tag {
+    background: #00b894;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #b2bec3;
+}
